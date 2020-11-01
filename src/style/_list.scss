@@ -1,0 +1,56 @@
+.list {
+    min-width: 270px;
+    width: 300px;
+    background-color: $layer-1-BG;
+    border: $border-thick solid $border;
+    border-radius: 4px;
+}
+
+.item {
+    display: flex;
+    padding: 0 .5em;
+    justify-content: space-between;
+    align-items: center;
+    animation: Fade 0.7s ease;
+
+    p {
+        max-width: 200px;
+        color: $secondary-medium;
+        letter-spacing: 1px;
+        padding: 1em .5em;
+        word-wrap: break-word;
+    }
+
+    button {
+        width: 40px;
+        height: 25px;
+        background-color: $layer-2-BG;
+        border: none;
+        color: $icon-0;
+        border-radius: 20px;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background-color: $layer-3-BG;
+            color: $icon-1;
+        }
+    }
+}
+
+.item-done {
+    background-color: $layer--1-BG;
+
+    p {
+        color: $secondary-low;
+        text-decoration: line-through;
+    }
+}
+
+@keyframes Fade {
+    0% {background-color: $layer-1-BG;}
+    50% {background-color: $layer-3-BG;}
+    100% {background-color: $layer-1-BG;}
+}

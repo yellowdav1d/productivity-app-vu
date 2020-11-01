@@ -1,0 +1,23 @@
+// Background colors
+$layer--1-BG: rgba(12, 12, 12, 0.35);
+$layer-0-BG: rgb(18, 18, 18); // hex #121212
+$layer-1-BG: rgb(26, 26, 26);
+$layer-2-BG: rgb(39, 39, 39);
+$layer-3-BG: rgb(52, 52, 52);
+
+// Font colors
+    // Primary text
+    $primary-high: rgba(yellow, 0.87);
+    $primary-medium: rgba(yellow, 0.60);
+    $primary-low: rgba(yellow, 0.35);
+    // Secondary text
+    $secondary-high: rgba(white, 0.87);
+    $secondary-medium: rgba(white, 0.60);
+    $secondary-low: rgba(white, 0.35);
+
+// Other
+$border: rgb(50, 50, 50);
+$icon-0: rgb(210, 210, 210);
+$icon-1: rgb(225, 225, 225);
+$bar: rgba(0, 255, 0, 0.6);
+$border-thick: 2px;
